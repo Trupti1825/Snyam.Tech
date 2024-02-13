@@ -41,4 +41,6 @@ import lombok.NoArgsConstructor;
     @Column(name = "password")
     private String password;
 
+    @Column(name = "token")
+    private String token;
 }
