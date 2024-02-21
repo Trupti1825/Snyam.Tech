@@ -4,8 +4,9 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
+import java.time.LocalDate;
 import java.util.Date;
+
 
 @Data
 @AllArgsConstructor
@@ -25,7 +26,8 @@ public class Payment {
     @Column(name = "payment_status")
     private String paymentStatus;
 
-    @Column(name = "payment_date")
-    private Date paymentDate;
+
+    @Column(name="payment_date")
+    private Date paymentDate=new Date();
 
 }
