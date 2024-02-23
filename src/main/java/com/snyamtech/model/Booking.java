@@ -26,6 +26,6 @@ public class Booking {
     private String bookingType;
 
     @Column(name = "booking_date")
-    private Date bookingDate;
+    private Date  bookingDate;
 
 }
